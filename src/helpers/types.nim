@@ -31,7 +31,6 @@ type
     name*: string
     bundleIdentifier*: string
     developerName* = ""
-    # subtitle* = ""
     localizedDescription* = ""
     iconURL*: string
     versions*: seq[ASAppVersion]
