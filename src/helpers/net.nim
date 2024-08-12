@@ -40,4 +40,6 @@ proc format*(repo: OrigRepo; found: DDResult): ASApps =
         size: origIdx.size
       ))
     
+    app.downloadURL = app.versions[0].downloadURL
     result.add(app)
+

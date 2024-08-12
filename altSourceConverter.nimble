@@ -1,4 +1,4 @@
-version       = "0.1"
+version       = "0.2"
 author        = "zx"
 description   = "convert repos to altsource format"
 license       = "MIT"
@@ -8,3 +8,4 @@ bin           = @["altSourceConverter"]
 
 requires "nim >= 2.0.6"
 requires "jsony >= 1.1.5"
+

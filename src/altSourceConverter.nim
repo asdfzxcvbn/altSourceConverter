@@ -18,3 +18,4 @@ proc main(): void =
 
 when isMainModule:
   main()
+

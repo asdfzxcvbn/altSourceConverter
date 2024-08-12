@@ -36,8 +36,12 @@ type
     versions*: seq[ASAppVersion]
     appPermissions*: ASPermissions
 
+    ## fuck you, altstore devs
+    downloadURL* = ""
+
   ASApps* = seq[ASApp]
 
 type
   ## maps bundle id -> indexes found
   DDResult* = OrderedTableRef[string, seq[int]]
+
