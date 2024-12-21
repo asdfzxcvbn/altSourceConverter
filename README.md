@@ -1,3 +1,6 @@
+# note
+altSourceConverter is kinda replaced by [UniversalRepoFmt](https://github.com/asdfzxcvbn/UniversalRepoFmt). i recommend using that instead if you're making your own source
+
 # altSourceConverter
 convert "esign-style" repos to AltSource format, tested on the apptesters repo, eeveespotify repo, and my repo!
 
